@@ -90,7 +90,7 @@ namespace BLChatBot
             //Upload(GetFullMessage());
         }
 
-        private string postSecretKey = "k5DMeo3mJK39cl1DgG4basTm5km1b";
+        private string postSecretKey = "";
 
         void Upload(string postData)
         {
