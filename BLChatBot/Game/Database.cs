@@ -13,7 +13,7 @@ namespace BLChatBot
         public Database()
         {
             List<string> results = new List<string>();
-            SqlConnection conn = new SqlConnection("Data Source = 46.30.212.82; Initial Catalog = furyzone_com; User Id = furyzone_com; Password = gzLxJ8ga;");
+            SqlConnection conn = new SqlConnection("Data Source = ; Initial Catalog = ; User Id = ; Password = ;");
             using (SqlCommand command = new SqlCommand())
             {
                 command.Connection = conn;
